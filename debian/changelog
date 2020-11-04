@@ -1,0 +1,5 @@
+wazo-python-kombu-packaging (4.6.11-1~wazo1) wazo-dev-buster; urgency=medium
+
+  *  Init
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 04 Nov 2020 10:44:59 -0500
