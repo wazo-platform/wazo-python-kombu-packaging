@@ -4,31 +4,12 @@ Priority: extra
 Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 10),
                dh-python,
-               python-all,
                python3-all,
-               python-setuptools,
                python3-setuptools
 Standards-Version: 3.9.6
 X-Python-Version: >= 2.5
 X-Python3-Version: >= 3.4
 Homepage: https://github.com/celery/py-kombu
-
-Package: python-kombu
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-amqp (>= 2.5.2), python-anyjson (>= 0.3.3)
-Description: AMQP Messaging Framework for Python
- The aim of Kombu is to make messaging in Python as easy as possible by
- providing an idiomatic high-level interface for the AMQP protocol. It is meant
- to replace the carrot library by providing a compatibility layer.
- .
- Features:
-  * Allows application authors to support several message server solutions by
-    using pluggable transports.
-  * Supports automatic encoding, serialization and compression of message
-    payloads.
-  * The ability to ensure that an operation is performed by gracefully handling
-    connection and channel errors.
- .
 
 Package: python3-kombu
 Architecture: all
