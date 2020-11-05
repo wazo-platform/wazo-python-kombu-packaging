@@ -1,3 +1,9 @@
+wazo-python-kombu-packaging (4.6.11-1~wazo2) wazo-dev-buster; urgency=medium
+
+  * remove python 2 binary
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Thu, 05 Nov 2020 09:49:07 -0500
+
 wazo-python-kombu-packaging (4.6.11-1~wazo1) wazo-dev-buster; urgency=medium
 
   *  Init
